@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+{% load bootstrap4 %}
+
+{% block head_title %}FIM Solution Fidoop{% endblock %}
+
+{% block content %}
+<section style="background: white;">
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 pb-5">
+                <div class="clearfix"></div>
+                <h1 class=" " style="margin-top: 15rem;">Web App For Portability and User Friendly</h1>
+                <p>The existing parallel mining algorithm for frequent itemsets includes the limitations in terms of more memory usage and <br> excessive run time even for less amount of data. hence FIdoop is the Solution to this problem</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section style="background: grey;">  
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 pb-5">
+                <div class="clearfix"></div>
+                <h1 class=" " style="margin-top: 5rem;">Fundamental of Fidoop</h1>
+                <p>Frequent Itemset Mining (FIM) is the process of discovering
+                    frequent itemsets that are highly correlated in a transactional
+                    database. Let T be a set of m transactions {T1, T2, . . . , Tm}
+                    in a transactional database, and I be a set of different
+                    items or attributes, I = {I1, I2, . . . ,In}. An itemset X, is a set
+                    of items or attributes, i.e., X ⊆ I. The support of an itemset,
+                    X, is defined as the ratio of the number of transactions that
+                    contains X to m. An itemset is frequent if its support is no
+                    less than a user’s predefined minimum support threshold,
+                    ϒsup, [1].
+                </p>
+                    <p>The problem of FIM is to find an efficient approach
+                    to extract frequent itemsets in a database. FIM is used in many
+                    applications and domains such as basket analysis, social network analysis [2], biological data analysis [3] and decision
+                    making [4], [5]. FIM is also called with ‘‘Big data’’ applications such as in frequent genes extractions from DNA in
+                    Bio-informatics [6], frequent itemsets extraction from twitter
+                    streams in social network analysis [7], analysis of sensorial
+                    data from IoT devices in smart city applications, etc. This
+                    work mainly focuses on mining the information from big
+                    transactional databases.</p>
+            </div>
+
+        </div>
+    </div>
+</section> 
+
+{% endblock %}
